@@ -1,0 +1,13 @@
+{% extends 'base.html' %} {% load static %} {% block body_block %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}" />
+
+<div class="mx-auto w-75 d-flex align-items-center" style="margin-top: 80px">
+  <div>
+    <h1 id="res-title" class="text-center">
+      Our Resturant is serving the best quality food on the planet.
+      <span class="text-warning">Come here to try it.</span>
+    </h1>
+  </div>
+  <img class="w-50" src="{% static '/images/res_home.jpg' %}" alt="" />
+</div>
+{% endblock %}
